@@ -1,4 +1,0 @@
-# What type of topic does your robot driver expect?
-# Currently supported are std_msgs/Float64MultiArray or trajectory_msgs/JointTrajectory
-command_out_type: trajectory_msgs/JointTrajectory
-command_out_topic: /joint_trajectory_controller/joint_trajectory # Publish outgoing commands here

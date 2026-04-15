@@ -42,15 +42,4 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-add_executable(test_twist src/test_twist.cpp)
-
-ament_target_dependencies(test_twist
-  rclcpp
-  geometry_msgs
-)
-install(TARGETS
-  test_twist
-  DESTINATION lib/${PROJECT_NAME}
-)
-
 ament_package()
